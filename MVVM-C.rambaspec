@@ -1,0 +1,18 @@
+# Template information section
+name: Finrux Module
+summary: Template for generating Finrux application screen modules
+author: Viktor Kobykhno
+version: 1.0.0
+license: MIT
+
+# The declarations for code files
+code_files:
+- {name: View/ViewConroller.swift, path: Code/View/ViewController.swift.liquid}
+- {name: ViewModel/ViewModel.swift, path: Code/ViewModel/ViewModel.swift.liquid}
+- {name: Model/Model.swift, path: Code/Model/Model.swift.liquid}
+- {name: Coordinator/Coordinator.swift, path: Code/Coordinator/Coordinator.swift.liquid}
+
+# Template dependencies
+dependencies:
+- RxSwift
+- RxCocoa

@@ -1,0 +1,39 @@
+//
+//  {{ module_info.name }} module - {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+import RxSwift
+import RxCocoa
+
+final class {{ module_info.name }}ViewController: UIViewController {
+
+    //MARK: ViewModel property
+    var viewModel: {{ module_info.name }}ViewModel?
+    var coordinator: {{ module_info.name }}Coordinator?
+    
+    private var disposeBag = DisposeBag()
+    
+    //MARK: Interface elements property
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    //MARK: Bindable ViewModel
+    private func bindableViewModel() {
+        
+    }
+    
+    //MARK: SetupLayout
+    private func setupLayout() {
+        
+    }
+    
+    //MARK: Navigation methods
+
+}
